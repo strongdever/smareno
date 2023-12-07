@@ -1,0 +1,215 @@
+#first-page {
+    .mainview {
+        position: relative;
+        display: block;
+        background: $red_color;
+        width: 100%;
+        height: calc(100vh - 11.8rem);
+        .big-smareno {
+            position: absolute;
+            left: 5.6rem;
+            top: 3.2rem;
+            aspect-ratio: 136 / 256;
+            width: auto;
+            height: 40%;
+        }
+        .mainview-bg {
+            position: absolute;
+            right: 0;
+            top: 0;
+            aspect-ratio: 435 / 298;
+            width: auto;
+            height: 42%;
+        }
+        .text-wrapper {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1.6rem;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            width: fit-content;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .main-text {
+                font-family: 'Noto Sans JP';
+                font-size: 6.8rem;
+                font-weight: 500;
+                line-height: 100%;
+                color: #FFF;
+                letter-spacing: 0.05em;
+                span {
+                    position: relative;
+                    font-size: 7.8rem;
+                    font-weight: 700;
+                    &::before {
+                        content: '';
+                        width: 1.6rem;
+                        height: 1.6rem;
+                        border-radius: 90px;
+                        background: $yellow_color;
+                        position: absolute;
+                        top: -0.4rem;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+            .description {
+                font-family: 'Noto Sans JP';
+                font-size: 1.6rem;
+                font-weight: 500;
+                line-height: 100%;
+                color: #FFF;
+            }
+        }
+    }
+
+    .section1 {
+        position: relative;
+        display: flex;
+        .half-left {
+            background: $red_color;
+        }
+        .left-container {
+            padding: 6.4rem 4.0rem;
+            .head-texts {
+                margin-bottom: 3.2rem;
+                .text-jp {
+                    margin-bottom: 1.2rem;
+                    color: #FFF;
+                }
+                .text-en {
+                    font-family: 'Montserrat';
+                    font-size: 1.8rem;
+                    font-weight: 400;
+                    line-height: 100%;
+                    color: #FFF;
+                }
+            }
+            .in-hoem {
+                display: block;
+                width: 80%;
+                margin: 0 auto 3.2rem auto;
+            }
+            .concept-wrapper {
+                display: grid;
+                grid-template-columns: repeat(3, minmax(0px, 1fr));
+                grid-column-gap: 0.8rem;
+                grid-row-gap: 0.8rem;
+                margin-bottom: 3.2rem;
+                li {
+                    background: #FFF;
+                    border-radius: 6px;
+                    padding: 1.0rem 0.8rem;
+                    height: 8.0rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    column-gap: 0.8rem;
+                    line-height: 2.0rem;
+                    img {
+                        width: 2.4rem;
+                        height: 2.4rem;
+                        flex-shrink: 0;
+                    }
+                    &:first-child {
+                        color: #FFF;
+                        background-color: $green_color;
+                        padding: 1.2rem 2.4rem;
+                        justify-content: center;
+                        img {
+                            width: 3.2rem;
+                            height: 3.2rem;
+                        }
+                    }
+                }
+            }
+            .bottom-text {
+                color: #FFF;
+                text-align: center;
+                letter-spacing: 0.05em;
+                span {
+                    color: $yellow_color;
+                }
+            }
+        }
+
+        .half-right {
+            position: relative;
+            .smareno-text {
+                text-align: center;
+                font-family: "Noto Sans JP";
+                font-size: 12.4rem;
+                font-weight: 400;
+                color: $gray_color;
+                white-space: nowrap;
+                line-height: 100%;
+                letter-spacing: 0.05em;
+                span {
+                    font-weight: 700;
+                }
+            }
+            &::after {
+                content: '';
+                width: 100%;
+                height: 7.3rem;
+                background: $green_color;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+        .right-container {
+            padding: 2.4rem 4.0rem 6.4rem 4.0rem;
+            .image001 {
+                margin-top: -2.4rem;
+                width: 84%;
+                display: block;
+                margin: -4.0rem auto 1.6rem auto;
+                z-index: 1;
+            }
+            .desc1 {
+                line-height: 3.2rem;
+                margin-bottom: 2.4rem;
+                letter-spacing: 0.05em;
+            }
+            .green-pannel {
+                padding: 2.4rem 3.2rem;
+                background: $green_color;
+                border-radius: 6px;
+                color: #FFF;
+                line-height: 3.2rem;
+                margin-bottom: 2.4rem;
+                text-align: center;
+                span {
+                    color: $yellow_color;
+                }
+            }
+            .bottom-wrapper {
+                width: 100%;
+                position: relative;
+                display: flex;
+                align-items: center;
+                column-gap: 3.2rem;
+                margin-bottom: 2.4rem;
+                img {
+                    width: 30%;
+                    flex-shrink: 0;
+                }
+                .desc {
+                    line-height: 3.2rem;
+                    span {
+                        color: $green_color;
+                    }
+                }
+            }
+            .bottom-img {
+                position: relative;
+                width: 100%;
+                z-index: 1;
+            }
+        }
+    }
+}

@@ -1456,7 +1456,7 @@
 .container-md,
 .container-lg,
 .container-xl {
-  width: 100%;
+  width: 95%;
   padding-right: 2.0rem;
   padding-left: 2.0rem;
   margin-right: auto;
@@ -1467,8 +1467,37 @@
   max-width: 132.0rem;
 }
 
+.half-wrapper {
+  max-width: 50%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .half-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.half-container {
+  width: 95%;
+  max-width: 72rem;
+  padding-right: 2.0rem;
+  padding-left: 2.0rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .half-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .container {
+    width: 100%;
     max-width: 100%;
   }
 }
