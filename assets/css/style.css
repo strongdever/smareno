@@ -1132,6 +1132,444 @@ body.mobile-nav-active #mobile-nav {
   z-index: 1;
 }
 
+#first-page .section2 {
+  padding: 14rem 0;
+}
+
+#first-page .section2 .head-text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 4.4rem auto;
+}
+
+#first-page .section2 .catchcopy-explain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 5.6rem;
+     -moz-column-gap: 5.6rem;
+          column-gap: 5.6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 4.8rem;
+}
+
+#first-page .section2 .catchcopy-explain .explain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 2.4rem;
+}
+
+#first-page .section2 .catchcopy-explain .explain li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-column-gap: 1.2rem;
+     -moz-column-gap: 1.2rem;
+          column-gap: 1.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#first-page .section2 .catchcopy-explain .explain li:first-child::before {
+  display: none;
+}
+
+#first-page .section2 .catchcopy-explain .explain li:last-child::before {
+  display: none;
+}
+
+#first-page .section2 .catchcopy-explain .explain li::before {
+  position: relative;
+  content: '';
+  width: 1.6rem;
+  height: 1.6rem;
+  background: #249E54;
+}
+
+#first-page .section2 .catchcopy-explain .image004 {
+  width: 35%;
+}
+
+#first-page .section2 .serve-catch {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-column-gap: 2.4rem;
+     -moz-column-gap: 2.4rem;
+          column-gap: 2.4rem;
+}
+
+#first-page .section2 .serve-catch .catch-pannel {
+  width: 45%;
+  padding: 3.2rem;
+  border-radius: 15px;
+  background: #ffe10930;
+  border: 1px solid #ACACAC;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#first-page .section2 .serve-catch .catch-pannel .old-concept {
+  margin-left: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+#first-page .section2 .serve-catch .catch-pannel .old-concept li {
+  line-height: 3.2rem;
+  list-style: circle;
+}
+
+#first-page .section2 .serve-catch .catch-pannel .desc {
+  line-height: 3.2rem;
+}
+
+#first-page .section2 .serve-catch .left-arrow {
+  width: 6.4rem;
+}
+
+#first-page .section2 .serve-catch .explain-pannel {
+  width: 55%;
+  padding: 3.2rem;
+  background: #249e5421;
+  border-radius: 15px;
+  border: 1px solid #ACACAC;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#first-page .section2 .serve-catch .explain-pannel .underline-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 3.2rem;
+}
+
+#first-page .section2 .serve-catch .explain-pannel .underline-wrapper span {
+  line-height: 3.2rem;
+}
+
+#first-page .section2 .serve-catch .explain-pannel .desc {
+  line-height: 3.2rem;
+  margin-bottom: 1.2rem;
+}
+
+#first-page .section2 .serve-catch .explain-pannel .desc b {
+  text-decoration: underline;
+}
+
+#first-page .section2 .serve-catch .explain-pannel .bottom-desc {
+  line-height: 3.2rem;
+}
+
+#first-page .section2 .serve-catch .explain-pannel .bottom-desc .green-text {
+  color: #249E54;
+}
+
+#first-page .no1 {
+  padding-bottom: 14rem;
+}
+
+#first-page .no1 .top-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-column-gap: 4.8rem;
+     -moz-column-gap: 4.8rem;
+          column-gap: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+
+#first-page .no1 .top-part .left-part .head-text {
+  color: #D81718;
+  text-shadow: 3px 3px 2px #F5E07D;
+  margin-bottom: 4.8rem;
+}
+
+#first-page .no1 .top-part .left-part .explain-pannel .title {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1.6rem 0;
+  text-align: center;
+  color: #FFF;
+  border-radius: 10px 10px 0 0;
+  background: #249E54;
+}
+
+#first-page .no1 .top-part .left-part .explain-pannel .content {
+  padding: 2.4rem;
+  border: 2px solid #249E54;
+  border-radius: 0 0 10px 10px;
+  line-height: 2.8rem;
+}
+
+#first-page .no1 .top-part .image005 {
+  width: 40%;
+}
+
+#first-page .no1 .bottom-part .title {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2.0rem 0;
+  text-align: center;
+  color: #FFF;
+  border-radius: 10px 10px 0 0;
+  background: #249E54;
+}
+
+#first-page .no1 .bottom-part .content {
+  padding: 2.4rem 2.4rem 0 2.4rem;
+  border: 2px solid #249E54;
+  border-radius: 0 0 10px 10px;
+  line-height: 2.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 2.4rem;
+     -moz-column-gap: 2.4rem;
+          column-gap: 2.4rem;
+}
+
+#first-page .no1 .bottom-part .content .no-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(0px, 1fr))[4];
+  grid-template-columns: repeat(4, minmax(0px, 1fr));
+  grid-column-gap: 1.2rem;
+  grid-row-gap: 1.2rem;
+}
+
+#first-page .no1 .bottom-part .content .no-wrapper .item img {
+  width: 100%;
+}
+
+#first-page .no1 .bottom-part .content .image006 {
+  width: 22%;
+}
+
+#first-page .review-section {
+  background: #D81718;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#first-page .review-section .half-wrapper {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#first-page .review-section .half-container {
+  max-width: 80rem;
+}
+
+#first-page .review-section .left-container {
+  padding: 8.8rem 2.0rem 8.8rem 4.0rem;
+}
+
+#first-page .review-section .right-container {
+  padding: 8.8rem 4.0rem 8.8rem 2.0rem;
+}
+
+#first-page .review-section .left-container .head-text {
+  color: #FFF;
+  margin-bottom: 4.0rem;
+}
+
+#first-page .review-section .left-container .review-content {
+  padding: 3.2rem 2.4rem;
+  background-color: #FFF;
+  border-radius: 10px;
+  margin-bottom: 4.8rem;
+}
+
+#first-page .review-section .left-container .review-content .underline-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 3.6rem;
+  color: #249E54;
+  margin-bottom: 1.6rem;
+}
+
+#first-page .review-section .left-container .review-content .underline-wrapper .underline-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#first-page .review-section .left-container .review-content .underline-wrapper .underline-text::after {
+  bottom: 0;
+}
+
+#first-page .review-section .left-container .review-content .underline-wrapper .underline-text .font-36-700 {
+  font-family: 'Inter';
+  color: #249E54;
+  line-height: 3.6rem;
+  margin-bottom: -0.5rem;
+}
+
+#first-page .review-section .left-container .review-content .underline-wrapper .font-16-500 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: -0.5rem;
+  line-height: 3.6rem;
+}
+
+#first-page .review-section .left-container .review-content .three-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 1.0rem;
+     -moz-column-gap: 1.0rem;
+          column-gap: 1.0rem;
+  margin-bottom: 1.6rem;
+}
+
+#first-page .review-section .left-container .review-content .three-contents .content {
+  padding: 0.8rem 1.0rem;
+  text-align: center;
+  border: 1px solid #6f6f6f;
+  background: #e4e4e4;
+  line-height: 2.4rem;
+}
+
+#first-page .review-section .left-container .review-content .suumo-review {
+  margin-bottom: 1.2rem;
+}
+
+#first-page .review-section .left-container .review-content .suumo-review span {
+  font-family: "Inter";
+}
+
+#first-page .review-section .left-container .review-content .suumo-desc {
+  line-height: 2.4rem;
+  letter-spacing: 0;
+  margin-bottom: 2.4rem;
+}
+
+#first-page .review-section .left-container .review-content .google-review {
+  margin-bottom: 3.2rem;
+}
+
+#first-page .review-section .left-container .review-content .stars-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-column-gap: 2.4rem;
+     -moz-column-gap: 2.4rem;
+          column-gap: 2.4rem;
+}
+
+#first-page .review-section .left-container .review-content .stars-img .stars {
+  width: 56%;
+}
+
+#first-page .review-section .left-container .review-content .stars-img .stars .label {
+  margin-bottom: 2.0rem;
+  white-space: nowrap;
+}
+
+#first-page .review-section .left-container .review-content .stars-img .stars .star-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  border-radius: 90px;
+  background-color: #249E54;
+  -webkit-column-gap: 0.4rem;
+     -moz-column-gap: 0.4rem;
+          column-gap: 0.4rem;
+}
+
+#first-page .review-section .left-container .review-content .stars-img .stars .star-wrapper:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+#first-page .review-section .left-container .review-content .stars-img .stars .star-wrapper .star {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+#first-page .review-section .left-container .review-content .stars-img .stars .star-wrapper span {
+  color: #FFF;
+  margin-left: 1.6rem;
+}
+
+#first-page .review-section .left-container .review-content .stars-img .image007 {
+  width: 42%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#first-page .review-section .review-pannel {
+  border-radius: 10px;
+  background: #FFF;
+  padding: 1.6rem;
+}
+
+#first-page .review-section .review-pannel:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+#first-page .review-section .review-pannel .title {
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 0.8rem;
+}
+
+#first-page .review-section .review-pannel .content {
+  line-height: 2.0rem;
+}
+
 main {
   display: block;
   margin-top: 11.8rem;
@@ -1144,13 +1582,13 @@ main {
   display: flex;
 }
 
-.underline-wrapper span {
+.underline-wrapper .underline-text {
   position: relative;
   color: #249E54;
   z-index: 2;
 }
 
-.underline-wrapper span::after {
+.underline-wrapper .underline-text::after {
   position: absolute;
   content: '';
   width: 100%;
@@ -1161,10 +1599,26 @@ main {
   z-index: -1;
 }
 
+.font-14-400 {
+  font-family: 'Noto Sans JP';
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: #333;
+}
+
 .font-14-500 {
   font-family: 'Noto Sans JP';
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 500;
+  line-height: 100%;
+  color: #333;
+}
+
+.font-16-500 {
+  font-family: 'Noto Sans JP';
+  font-size: 1.6rem;
+  font-weight: 500;
   line-height: 100%;
   color: #333;
 }
@@ -1193,6 +1647,14 @@ main {
   color: #333;
 }
 
+.font-20-700 {
+  font-family: 'Noto Sans JP';
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 100%;
+  color: #333;
+}
+
 .font-22-700 {
   font-family: 'Noto Sans JP';
   font-size: 2.2rem;
@@ -1212,6 +1674,30 @@ main {
 .font-28-700 {
   font-family: 'Noto Sans JP';
   font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 100%;
+  color: #333;
+}
+
+.font-32-700 {
+  font-family: 'Noto Sans JP';
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 100%;
+  color: #333;
+}
+
+.font-36-700 {
+  font-family: 'Noto Sans JP';
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 100%;
+  color: #333;
+}
+
+.font-48-700 {
+  font-family: 'Noto Sans JP';
+  font-size: 4.8rem;
   font-weight: 700;
   line-height: 100%;
   color: #333;

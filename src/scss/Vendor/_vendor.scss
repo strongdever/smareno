@@ -1505,6 +1505,10 @@
     // }
 }
 
+.half-wrapper {
+    width: 50%;
+}
+
 @include media('sp') {
     .half-container {
         width: 100%;
