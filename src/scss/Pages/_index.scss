@@ -465,12 +465,12 @@
             max-width: 80rem;
         }
 
-        .left-container {
-            padding: 8.8rem 2.0rem 8.8rem 4.0rem;
+        .right-container {
+            margin-left: 0;
         }
 
-        .right-container {
-            padding: 8.8rem 4.0rem 8.8rem 2.0rem;
+        .left-container {
+            margin-right: 0;
         }
 
         .left-container {
@@ -478,11 +478,13 @@
                 color: #FFF;
                 margin-bottom: 4.0rem;
             }
+
             .review-content {
                 padding: 3.2rem 2.4rem;
                 background-color: #FFF;
                 border-radius: 10px;
                 margin-bottom: 4.8rem;
+
                 .underline-wrapper {
                     display: flex;
                     flex-wrap: wrap;
@@ -494,9 +496,11 @@
                         display: flex;
                         align-items: flex-end;
                         width: fit-content;
+
                         &::after {
                             bottom: 0;
                         }
+
                         .font-36-700 {
                             font-family: 'Inter';
                             color: $green_color;
@@ -504,6 +508,7 @@
                             margin-bottom: -0.5rem;
                         }
                     }
+
                     .font-16-500 {
                         font-size: 1.6rem;
                         color: #333;
@@ -511,10 +516,12 @@
                         line-height: 3.6rem;
                     }
                 }
+
                 .three-contents {
                     display: flex;
                     column-gap: 1.0rem;
                     margin-bottom: 1.6rem;
+
                     .content {
                         padding: 0.8rem 1.0rem;
                         text-align: center;
@@ -523,30 +530,38 @@
                         line-height: 2.4rem;
                     }
                 }
+
                 .suumo-review {
                     margin-bottom: 1.2rem;
+
                     span {
                         font-family: "Inter";
                     }
                 }
+
                 .suumo-desc {
                     line-height: 2.4rem;
                     letter-spacing: 0;
                     margin-bottom: 2.4rem;
                 }
+
                 .google-review {
                     margin-bottom: 3.2rem;
                 }
+
                 .stars-img {
                     display: flex;
                     align-items: flex-end;
                     column-gap: 2.4rem;
+
                     .stars {
                         width: 56%;
-                        .label  {
+
+                        .label {
                             margin-bottom: 2.0rem;
                             white-space: nowrap;
                         }
+
                         .star-wrapper {
                             display: flex;
                             align-items: center;
@@ -559,16 +574,19 @@
                             &:not(:last-child) {
                                 margin-bottom: 0.5rem;
                             }
+
                             .star {
                                 width: 2.4rem;
                                 height: 2.4rem;
                             }
+
                             span {
                                 color: #FFF;
                                 margin-left: 1.6rem;
                             }
                         }
                     }
+
                     .image007 {
                         width: 42%;
                         height: fit-content;
@@ -576,20 +594,118 @@
                 }
             }
         }
+
         .review-pannel {
             border-radius: 10px;
             background: #FFF;
             padding: 1.6rem;
+
             &:not(:last-child) {
                 margin-bottom: 0.8rem;
             }
+
             .title {
                 padding-bottom: 0.8rem;
                 border-bottom: 1px solid #e4e4e4;
                 margin-bottom: 0.8rem;
             }
+
             .content {
                 line-height: 2.0rem;
+            }
+        }
+    }
+
+    .trouble-section {
+        display: flex;
+        align-items: flex-end;
+        background: $green_color;
+
+        .half-container {
+            max-width: 80rem;
+        }
+
+        .right-container {
+            margin-left: 0;
+        }
+
+        .left-container {
+            margin-right: 0;
+        }
+
+        .head-text {
+            position: relative;
+            width: fit-content;
+            color: #FFF;
+            margin-bottom: 4.0rem;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 70%;
+                height: 5px;
+                bottom: -2.6rem;
+                left: 0;
+                background: #FFF;
+            }
+        }
+
+        .sub-head {
+            color: #FFF;
+            margin-bottom: 2.4rem;
+        }
+
+        .head-desc {
+            color: #FFF;
+            line-height: 3.0rem;
+            margin-bottom: 3.2rem;
+        }
+
+        .cards-list {
+            .card-item {
+                width: 100%;
+            }
+            .card {
+                position: relative;
+                display: flex;
+                column-gap: 1.2rem;
+
+                &.reverse {
+                    flex-direction: row-reverse;
+                }
+
+                .img-wrapper {
+                    width: 15%;
+                    display: flex;
+                    align-items: flex-end;
+
+                    img {
+                        width: 100%;
+                        height: fit-content;
+                    }
+
+                    .image008 {
+                        width: 8.0rem;
+                    }
+                    .image009 {
+                        width: 8.2rem;
+                    }
+                    .image010 {
+                        width: 8.1rem;
+                    }
+                    .image011 {
+                        width: 8.4rem;
+                    }
+                    .image012 {
+                        width: 8.0rem;
+                    }
+                    .image013 {
+                        width: 8.6rem;
+                    }
+                    .image014 {
+                        width: 8.2rem;
+                    }
+                }
             }
         }
     }

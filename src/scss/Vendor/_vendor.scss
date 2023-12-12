@@ -1505,9 +1505,13 @@
     // }
 }
 
-.half-wrapper {
-    width: 50%;
+.left-container {
+    padding: 8.8rem 1rem 8.8rem 4rem;
 }
+.right-container {
+    padding: 8.8rem 4rem 8.8rem 1rem;
+}
+
 
 @include media('sp') {
     .half-container {
