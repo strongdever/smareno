@@ -1688,6 +1688,207 @@ body.mobile-nav-active #mobile-nav {
   width: 8.2rem;
 }
 
+#first-page .feature {
+  background-color: #f5fff9;
+  background-image: url(../img/bg_blue.png);
+  background-repeat: repeat;
+  background-position: 50% 20px;
+  background-size: 40px 40px;
+  padding: 10rem 0;
+}
+
+#first-page .feature .container {
+  position: relative;
+}
+
+#first-page .feature .head-text {
+  position: relative;
+  color: #D81718;
+  text-shadow: 3px 3px 2px #F5E07D;
+  margin-bottom: 4.8rem;
+}
+
+#first-page .feature .en-head-text {
+  position: absolute;
+  font-size: 14rem;
+  color: #c3c3c394 !important;
+  text-shadow: unset;
+  top: 1rem;
+  right: 0;
+}
+
+#first-page .feature .head-desc {
+  line-height: 3.2rem;
+  margin-bottom: 4.8rem;
+}
+
+#first-page .feature .plan-life {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(0px, 1fr))[2];
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  -webkit-column-gap: 3.2rem;
+     -moz-column-gap: 3.2rem;
+          column-gap: 3.2rem;
+}
+
+#first-page .feature .plan-life .item {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#first-page .feature .plan-life .item .title {
+  position: relative;
+  color: #FFF;
+  background: #249E54;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1.6rem 3.2rem;
+  border-radius: 15px 15px 0 0;
+  border: 2px solid #249E54;
+}
+
+#first-page .feature .plan-life .item .content-wrapper {
+  width: 100%;
+  height: 26rem;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 1.6rem;
+     -moz-column-gap: 1.6rem;
+          column-gap: 1.6rem;
+  border-radius: 0 0 15px 15px;
+  border: 2px solid #249E54;
+}
+
+#first-page .feature .plan-life .item .content-wrapper .content {
+  line-height: 2.4rem;
+}
+
+#first-page .feature .plan-life .item .content-wrapper img {
+  width: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#first-page .flow .flow-steps {
+  display: block;
+  position: relative;
+  margin-bottom: 10.4rem;
+}
+
+#first-page .flow .flow-steps .each-step {
+  display: block;
+  position: relative;
+}
+
+#first-page .flow .flow-steps .each-step:not(:last-child) {
+  padding-bottom: 1.6rem;
+}
+
+#first-page .flow .flow-steps .each-step::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: calc(100% - 3.2rem);
+  left: 3.2rem;
+  top: 3.2rem;
+  background-color: #249E54;
+}
+
+#first-page .flow .flow-steps .each-step .step-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 3.2rem;
+     -moz-column-gap: 3.2rem;
+          column-gap: 3.2rem;
+  position: relative;
+}
+
+#first-page .flow .flow-steps .each-step .step-wrapper .step-number {
+  aspect-ratio: 1 / 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 6.4rem;
+  height: 6.4rem;
+  background-color: #249E54;
+  border-radius: 50px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-bottom: auto;
+}
+
+#first-page .flow .flow-steps .each-step .step-wrapper .step-number .label {
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 1.2px;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+#first-page .flow .flow-steps .each-step .step-wrapper .step-number .num {
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.4rem;
+  letter-spacing: 3.8px;
+}
+
+#first-page .flow .flow-steps .each-step .step-wrapper .step-content {
+  margin-right: 6.2rem;
+  width: 70%;
+}
+
+#first-page .flow .flow-steps .each-step .step-wrapper .step-content .step-title {
+  color: #249E54;
+  font-family: "Noto Sans CJK JP";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.0rem;
+  letter-spacing: 2.4px;
+}
+
+#first-page .flow .flow-steps .each-step .step-wrapper .step-content .desc {
+  color: #333;
+  font-family: "Noto Sans CJK JP";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.2rem;
+  letter-spacing: 1.6px;
+}
+
 main {
   display: block;
   margin-top: 11.8rem;
@@ -1950,6 +2151,22 @@ main {
 
 .card-item:hover {
   background: rgba(255, 255, 255, 0.03);
+}
+
+.href-long-term-plan {
+  color: #D81718;
+}
+
+.href-long-term-plan:hover {
+  opacity: 0.7;
+}
+
+.href-life-planning {
+  color: #D81718;
+}
+
+.href-life-planning:hover {
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=style.css.map */
