@@ -50,13 +50,13 @@
 @font-face {
 	font-family: 'Montserrat';
 	/* お好きな名前にしましょう */
-	src: url('Montserrat-Bold');
+	src: url('Montserrat-Bold.ttf');
 	/* IE9以上用 */
-	src: url('Montserrat-Bold') format('embedded-opentype'),
+	src: url('Montserrat-Bold.ttf') format('embedded-opentype'),
 		/* IE8以前用 */
-		url('Montserrat-Bold') format('ttf'),
+		url('Montserrat-Bold.ttf') format('ttf'),
 		/* モダンブラウザ用 */
-		url('Montserrat-Bold') format('truetype');
+		url('Montserrat-Bold.ttf') format('truetype');
 	/* iOS, Android用 */
 	font-weight: 700;
 	/* 念の為指定しておきます */

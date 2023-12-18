@@ -1,0 +1,182 @@
+footer {
+    padding: 10rem 0 8.0rem 0;
+    background: $red_color;
+
+    .container {
+        position: relative;
+    }
+
+    .top-img {
+        position: absolute;
+        top: 10.9rem;
+        right: 0;
+        width: 40rem;
+        opacity: 0.5;
+    }
+
+    .top-text {
+        color: #FFF;
+        margin-bottom: 6.8rem;
+        display: flex;
+        align-items: center;
+
+        .plus {
+            font-size: 6.4rem;
+            font-weight: 300;
+            position: relative;
+            margin-bottom: 0.5rem;
+
+            &::before {
+                content: 'プラス';
+                position: absolute;
+                top: -2.2rem;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-size: 1.2rem;
+                width: 100%;
+                white-space: nowrap;
+            }
+        }
+
+        .cross {
+            font-size: 4.2rem;
+            position: relative;
+            color: $yellow_color;
+
+            &::before {
+                content: 'クロス';
+                position: absolute;
+                top: -2.4rem;
+                left: 50%;
+                transform: translate(-41%, 0);
+                font-size: 1.2rem;
+                width: 100%;
+                white-space: nowrap;
+                color: #FFF;
+            }
+        }
+    }
+
+    .middle-text {
+        margin-bottom: 2.4rem;
+        line-height: 5.2rem;
+        color: #FFF;
+
+        .spot {
+            position: relative;
+            color: #FFF;
+
+            &::after {
+                content: '';
+                width: 1.6rem;
+                height: 1.6rem;
+                border-radius: 90px;
+                background: #FFE109;
+                position: absolute;
+                top: -1.0rem;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    .bottom-text {
+        line-height: 3.2rem;
+        color: #FFF;
+        margin-bottom: 4.8rem;
+    }
+
+    .bottom-wrapper {
+        display: flex;
+        column-gap: 4.8rem;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        .introduction-pannel {
+            width: 48%;
+            position: relative;
+            padding: 3.2rem 4.8rem;
+            border-radius: 10px;
+            background: #FFF;
+
+            .top-text {
+                border-radius: 90px;
+                padding: 0.8rem 2.0rem;
+                text-align: center;
+                color: #FFF;
+                margin-bottom: 0.8rem;
+                background: $red_color;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .desc {
+                line-height: 1.8rem;
+                margin-bottom: 2.0rem;
+            }
+
+            .left-right {
+                display: flex;
+                column-gap: 4.8rem;
+                justify-content: space-between;
+
+                .left-wrapper {
+                    .item {
+                        &:not(:last-child) {
+                            margin-bottom: 1.6rem;
+                        }
+                    }
+                }
+
+                .right {
+                    .item {
+                        &:not(:last-child) {
+                            margin-bottom: 1.6rem;
+                        }
+                    }
+                }
+
+                .title {
+                    color: $red_color;
+                    padding-bottom: 0.8rem;
+                    border-bottom: 2px solid $red_color;
+                    margin-bottom: 0.8rem;
+                }
+
+                .desc {
+                    line-height: 2.6rem;
+                }
+            }
+        }
+
+        .item-list {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0px, 1fr));
+            column-gap: 2.4rem;
+            row-gap: 2.4rem;
+
+            li {
+                line-height: 2.4rem;
+                color: #FFF;
+
+                .head-wrapper {
+                    display: flex;
+                    column-gap: 0.8rem;
+                    align-items: center;
+                    color: #FFF;
+                    padding-bottom: 0.8rem;
+                    border-bottom: 1px solid #FFF;
+                    margin-bottom: 1.6rem;
+
+                    img {
+                        width: 3.2rem;
+                        height: 3.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

@@ -171,47 +171,6 @@
             }
         }
     }
-    .search-action {
-        position: relative;
-        display: block;
-        max-width: 33.5rem;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 4.0rem;
-        & > li {
-            position: relative;
-            &:not(:last-child) {
-                margin-bottom: 2.0rem;
-            }
-        }
-    }
-    .mobile-info {
-        position: relative;
-        font-family: $font_gothic;
-        font-weight: 500;
-        font-size: 1.4rem;
-        line-height: 2.8rem;
-        letter-spacing: 0.08em;
-        color: #FFFFFF;
-        text-align: left;
-        margin-top: 4.0rem;
-        max-width: 30.0rem;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        i {
-            color: inherit;
-            display: inline-block;
-            margin-right: 0.6rem;
-        }
-        a {
-            color: inherit;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
 }
 
 .mobile-nav-overly {
