@@ -15,6 +15,30 @@
       }
     });
   });
+
+  //to-top button start--------->
+  var backBtn =$('.back-to-top');
+  $(document).scroll(function () {
+    var pos = $(window).scrollTop();
+    var position = 800;
+    var speed = 400;
+  
+    if (pos >= position) {
+        backBtn.fadeIn(speed);
+    } else {
+        backBtn.fadeOut(speed);
+    }
+  });
+  
+  backBtn.click(function () {
+    $("html, body").animate({
+        scrollTop: 0
+    },
+            {
+                duration: 1200
+            });
+  });
+  //backtop button end--------->
 })(jQuery);
 
 //faq part
@@ -77,14 +101,16 @@ function faqRemoveClass(element, name) {
 
 // Add active class to the current control button (highlight it)
 var btnContainer = document.getElementById("faqBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn-faq");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function () {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+  if (btnContainer) {
+    var btns = btnContainer.getElementsByClassName("btn-faq");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  }
 
 
 // Accordion Function

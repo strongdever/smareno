@@ -4,6 +4,30 @@ main {
     position: relative;
 }
 
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 4.8rem;
+    right: 4.8rem;
+    .to-top {
+        width: 4.8rem;
+        height: 4.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $yellow_color;
+        color: #FFF;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        font-size: 2rem;
+        border-radius: 90px;
+        z-index: 900;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+
 .underline-wrapper {
     display: inline-block;
     height: fit-content;
@@ -53,6 +77,14 @@ main {
     font-family: 'Noto Sans JP';
     font-size: 1.6rem;
     font-weight: 500;
+    line-height: 100%;
+    color: #333;
+}
+
+.font-16-700 {
+    font-family: 'Noto Sans JP';
+    font-size: 1.6rem;
+    font-weight: 700;
     line-height: 100%;
     color: #333;
 }
@@ -557,5 +589,112 @@ $distance: -1px;
                 }
             }
         }
+    }
+}
+
+.review-content {
+
+    .stars-img {
+        display: flex;
+        align-items: flex-end;
+        column-gap: 2.4rem;
+        margin-bottom: 3.2rem;
+
+        .stars {
+            position: relative;
+            width: 54%;
+            padding: 2.4rem;
+            background: #E2E5E5;
+            border-radius: 10px;
+            flex-shrink: 0;                    
+
+            .star-wrapper {
+                display: flex;
+                align-items: center;
+                width: fit-content;
+                padding: 0.5rem 2rem;
+                border-radius: 90px;
+                background-color: $green_color;
+                column-gap: 0.4rem;
+
+                &:not(:last-child) {
+                    margin-bottom: 0.5rem;
+                }
+
+                .star {
+                    width: 2.4rem;
+                    height: 2.4rem;
+                }
+
+                span {
+                    color: #FFF;
+                    margin-left: 1.6rem;
+                }
+            }
+            .marks {
+                position: absolute;
+                bottom: 2.4rem;
+                right: 1.6rem;
+            }
+        }
+
+        .google-review {
+            height: 30.8rem;
+            position: relative;
+            padding: 2.4rem;
+            background: #E2E5E5;
+            border-radius: 10px;
+
+            .label {
+                margin-bottom: 3.2rem;
+            }
+
+            img {
+                width: 60%;
+                display: block;
+                margin: 0 auto 2.0rem auto;
+            }
+
+            .marks {
+                display: block;
+                margin: 0 auto;
+                position: absolute;
+                bottom: 2.4rem;
+                left: 50%;
+                transform: translate(-50%,0);
+            }
+        }
+
+        .label {
+            display: block;
+            margin: 0 auto 2.0rem auto;
+            padding: 1.6rem 2.4rem;
+            width: 100%;
+            text-align: center;
+            color: #FFF;
+            background: #26466F;
+            border-radius: 90px;
+        }
+
+        .marks {
+            width: fit-content;
+            padding: 1.6rem 1.6rem 1.2rem 1.6rem;
+            border-radius: 10px;
+            background: #FFF;
+
+            span {
+                font-family: "DIN 2014";
+                font-size: 4.8rem;
+            }
+        }
+    }
+
+    .title {
+        line-height: 3.6rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .content {
+        line-height: 2.4rem;
     }
 }

@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
 
 @font-face {
-    font-family: 'DIN 2014 Demi';
+    font-family: 'DIN 2014';
     src: url('DIN2014-DemiBold.ttf') format('truetype');
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face {
-    font-family: 'DIN 2014 Bold';
+    font-family: 'DIN 2014';
     src: url('DIN2014-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;

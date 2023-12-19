@@ -32,7 +32,7 @@
     <script src="assets/js/jquery.min.js"></script>
 </head>
 
-<body>
+<body id="body">
     <header class="header">
         <div class="header-wrapper">
             <h1 class="header-logo">
@@ -40,73 +40,88 @@
                     <img src="./assets/img/logo.svg" alt="smareno">
                 </a>
             </h1>
-            <nav class="header-nav">
-                <ul class="nav-menu">
-                    <li class="menu-item has-submenu">
-                        <a href="index.html#aboutus" class="menu-link href-link active" data-href="aboutus">
-                            <span>スマレノについて</span>&nbsp;
-                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            <li class="sub-menu-item">
-                                <a href="index.html#aboutus" class="menu-link href-link" data-href="aboutus">
-                                    <span>スマレノとは</span>
-                                </a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="index.html#no1" class="menu-link href-link" data-href="no1">
-                                    <span>スマリノの地域順位</span>
-                                </a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="index.html#review" class="menu-link href-link" data-href="review">
-                                    <span>スマリノの評価</span>
-                                </a>
-                            </li>
-                            <li class="sub-menu-item">
-                                <a href="index.html#benefit" class="menu-link href-link" data-href="benefit">
-                                    <span>ベネフィット</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a href="index.html#reform-trouble" class="menu-link href-link" data-href="reform-trouble">
-                            <span>リフォームトラブル</span>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="index.html#feature" class="menu-link href-link" data-href="feature">
-                            <span>特徴</span>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="index.html#flow" class="menu-link href-link" data-href="flow">
-                            <span>流れ</span>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="index.html#tens-rule" class="menu-link href-link" data-href="tens-rule">
-                            <span>十箇条</span>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="index.html#originality" class="menu-link href-link" data-href="originality">
-                            <span>オリジナリティ</span>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="index.html#faq" class="menu-link href-link" data-href="faq">
-                            <span>よくある質問</span>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="index.html#company" class="menu-link href-link" data-href="company">
-                            <span>会社概要</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="contact-nav">
+                <div class="contact-wrapper">
+                    <a class="btn btn-green" href="tel:+042-769-8100">
+                        <span><i class="fa fa-phone fa-contact"></i>&nbsp;042-769-8100</span>
+                    </a>
+                    <a class="btn btn-green" href="mailto:info@sumainohiroba.com">
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;info@sumainohiroba.com</span>
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <ul class="nav-menu">
+                        <li class="menu-item has-submenu">
+                            <a href="index.html#aboutus" class="menu-link href-link" data-href="aboutus">
+                                <span>スマレノについて</span>&nbsp;
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu-item">
+                                    <a href="index.html#aboutus" class="menu-link href-link" data-href="aboutus">
+                                        <span>スマレノとは</span>
+                                    </a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="index.html#no1" class="menu-link href-link" data-href="no1">
+                                        <span>スマリノの地域順位</span>
+                                    </a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="index.html#review" class="menu-link href-link" data-href="review">
+                                        <span>スマリノの評価</span>
+                                    </a>
+                                </li>
+                                <li class="sub-menu-item">
+                                    <a href="index.html#benefit" class="menu-link href-link" data-href="benefit">
+                                        <span>ベネフィット</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html#reform-trouble" class="menu-link href-link" data-href="reform-trouble">
+                                <span>リフォームトラブル</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html#feature" class="menu-link href-link" data-href="feature">
+                                <span>特徴</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html#flow" class="menu-link href-link" data-href="flow">
+                                <span>流れ</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html#tens-rule" class="menu-link href-link" data-href="tens-rule">
+                                <span>十箇条</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html#compare" class="menu-link href-link" data-href="compare">
+                                <span>比較材料</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html#originality" class="menu-link href-link" data-href="originality">
+                                <span>オリジナリティ</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html#faq" class="menu-link href-link" data-href="faq">
+                                <span>よくある質問</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="index.html#company" class="menu-link href-link" data-href="company">
+                                <span>会社概要</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <div id="mobile-nav">
@@ -190,9 +205,9 @@
                     <p class="main-text">この<span>家</span>が<span>好</span>き</p>
                     <p class="description">家族みんながずっと大好きでいられるような、お家づくりのお手伝い</p>
                 </div>
-                <img class="background-img luxy-el" data-speed-x="-4" data-horizontal="1" data-offset="-1" src="./assets/img/top-background.png">
+                <!-- <img class="background-img luxy-el" data-speed-x="-4" data-horizontal="1" data-offset="-1"src="./assets/img/top-background.png"> -->
             </div>
-            <section class="section1">
+            <!-- <section class="section1">
                 <div class="half-wrapper half-left">
                     <div class="half-container left-container">
                         <div class="head-texts">
@@ -275,9 +290,9 @@
                         <img class="bottom-img" src="./assets/img/image003.svg">
                     </div>
                 </div>
-            </section>
+            </section> -->
 
-            <section class="section2">
+            <section class="section2" id="aboutus">
                 <div class="container">
                     <h1 class="head-text font-32-700" data-aos="fade-up" data-aos-duration="1000">そのリフォーム本当に必要ですか？</h1>
                     <div class="catchcopy-explain" data-aos="fade-up" data-aos-duration="1000">
@@ -328,7 +343,13 @@
                         </div>
                         <img class="left-arrow" src="./assets/img/big-left-arrow.svg">
                         <div class="explain-pannel">
-                            <div class="underline-wrapper font-18-500">スマリノでまず初めに行うことは<span class="underline-text font-20-700">「<a href="#long-term-plan" data-section="true" class="href-long-term-plan href-link" data-href="long-term-plan">長期修繕計画</a>」</span>と<span class="underline-text font-20-700">「<a href="#life-planning" data-section="true" class="href-life-planning href-link" data-href="life-planning">ライフプランニング</a>合わせた資金計画」</span>の策定です。</div>
+                            <div class="underline-wrapper font-18-500">スマリノでまず初めに行うことは<span
+                                    class="underline-text font-20-700">「<a href="#long-term-plan" data-section="true"
+                                        class="href-long-term-plan href-link"
+                                        data-href="long-term-plan">長期修繕計画</a>」</span>と<span
+                                    class="underline-text font-20-700">「<a href="#life-planning" data-section="true"
+                                        class="href-life-planning href-link"
+                                        data-href="life-planning">ライフプランニング</a>合わせた資金計画」</span>の策定です。</div>
                             <p class="desc font-18-500">
                                 <b>修繕計画</b>と<b>資金計画</b>を一体として行い、長期の計画を立ててからスタートします。<br>
                                 壊れる前にお声がけください。もちろん計画書作成と定期診断は全て無料で行っています。<br>
@@ -348,7 +369,7 @@
                 <div class="container">
                     <div class="top-part">
                         <div class="left-part" data-aos="fade-right" data-aos-duration="1000">
-                            <h1 class="head-text font-60-700"  id="no1">エリアNo.1宣言</h1>
+                            <h1 class="head-text font-60-700" id="no1">エリアNo.1宣言</h1>
                             <div class="explain-pannel">
                                 <h2 class="title font-22-700">全ての分野で地域NO1クラス</h2>
                                 <p class="content font-18-500">
@@ -399,68 +420,66 @@
             <section class="review-section">
                 <div class="half-wrapper half-left">
                     <div class="half-container left-container">
-                        <h1 class="head-text font-48-700" id="review" data-aos="fade-up" data-aos-duration="1000">スマリノは組織で動く</h1>
+                        <h1 class="head-text font-48-700" id="review" data-aos="fade-up" data-aos-duration="1000">
+                            満 足 度</h1>
                         <div class="review-content" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="underline-wrapper font-20-700">お客様をバックアップするのは担当営業ではなく、
-                                <div class="underline-text font-20-700"><span class="font-36-700">100</span>名のチームです。
-                                </div>
-                                <span class="font-16-500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※営業60名と技術40名</span>
-                            </div>
-                            <ul class="three-contents">
-                                <li class="content font-16-500">
-                                    アフター専属の部署が<br>
-                                    あるから安心
-                                </li>
-                                <li class="content font-16-500">
-                                    建設業免許が<br>
-                                    あるから安心
-                                </li>
-                                <li class="content font-16-500">
-                                    工事の可視化に<br>
-                                    よる安心
-                                </li>
-                            </ul>
-                            <p class="suumo-review font-24-700">スマリノの顧客満足度は<span class="font-36-700">4.8</span></p>
-                            <p class="suumo-desc font-18-500">
-                                弊社「顧客満足度」はSUUMO調査で地域NO1クラス。<br>
-                                SUUMOの接客評価コメントで5点満点中4.8点の評価をいただいています。
-                            </p>
-                            <p class="google-review font-20-700">「googleの口コミ」4.5点</p>
+                            
                             <div class="stars-img">
                                 <div class="stars">
-                                    <p class="label font-20-700">内訳 (接客評価コメント228件中)</p>
-                                    <div class="star-wrapper">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <span class="font-24-700">194件</span>
+                                    <p class="label font-18-700">SUUMO接客評価満足度</p>
+                                    <div class="review-wrapper">
+                                        <div class="star-wrapper">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <span class="font-18-700">194件</span>
+                                        </div>
+                                        <div class="star-wrapper">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <span class="font-18-700">27件</span>
+                                        </div>
+                                        <div class="star-wrapper">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <span class="font-18-700">6件</span>
+                                        </div>
+                                        <div class="star-wrapper">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <span class="font-18-700">0件</span>
+                                        </div>
+                                        <div class="star-wrapper">
+                                            <img class="star" src="./assets/img/star.svg">
+                                            <span class="font-18-700">1件</span>
+                                        </div>
                                     </div>
-                                    <div class="star-wrapper">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <span class="font-24-700">27件</span>
-                                    </div>
-                                    <div class="star-wrapper">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <span class="font-24-700">6件</span>
-                                    </div>
-                                    <div class="star-wrapper">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <span class="font-24-700">0件</span>
-                                    </div>
-                                    <div class="star-wrapper">
-                                        <img class="star" src="./assets/img/star.svg">
-                                        <span class="font-24-700">1件</span>
+                                    <div class="marks font-18-700">
+                                        <span>4.7</span>点
                                     </div>
                                 </div>
-                                <img class="image007" src="assets/img/image007.png">
+                                <div class="google-review">
+                                    <p class="label font-18-700">googleの口コミ</p>
+                                    <img src="./assets/img/google-review.png">
+                                    <div class="marks font-18-700">
+                                        <span>4.5</span>点
+                                    </div>
+                                </div>
+                                <!-- <img class="image007" src="assets/img/image007.png"> -->
+                            </div>
+                            <div class="content-wrapper">
+                                <h2 class="title font-24-700">
+                                    スマリノ」はお客様満足度において、<br class="pc">
+                                    地域の業界をリードしています。
+                                </h2>
+                                <p class="content font-16-400">
+                                    悪くなりがちなリフォーム業界ですが「SUUMO接客評価」で高得点の4.7点、そして 「 Googleの口コミ」では4.5点という卓越した評価を受けています。これらの評価は、 「スマリノ」が常にお客様第一を心掛け、質の高いサービスと心温まる接客を提供し ていることの証です。地域でトップクラスの接客と満足度を実現することにより、お 客様に最高のリフォーム体験をお届けしています。年の歴史を基に、これからも変わ らぬ価値をお届けいたします。
+                                </p>
                             </div>
                         </div>
                         <div class="review-pannel" data-aos="fade-up" data-aos-duration="1000">
@@ -689,7 +708,8 @@
 
                 <div class="half-wrapper half-right">
                     <div class="half-container right-container">
-                        <h1 class="head-text font-48-700" id="reform-trouble" data-aos="fade-up" data-aos-duration="1000">問題体験談</h1>
+                        <h1 class="head-text font-48-700" id="reform-trouble" data-aos="fade-up"
+                            data-aos-duration="1000">問題体験談</h1>
                         <h2 class="sub-head font-32-700" data-aos="fade-up" data-aos-duration="1000">リフォームトラブル</h2>
                         <p class="head-desc font-18-500" data-aos="fade-up" data-aos-duration="1000">
                             リフォームには数限りないトラブルがつきものです。その中の一部をご紹介させていただきます。<br>
@@ -851,9 +871,10 @@
                                         </h3>
                                         <p class="desc font-16-500">
                                             ヒアリングをもとに無料の<a href="#long-term-plan" data-section="true"
-                                                class="href-long-term-plan href-link font-16-500" data-href="href-long-term-plan">長期修繕計画</a>と<a
-                                                href="#life-planning"
-                                                class="href-life-planning href-link font-16-500" data-href="life-planning">ライフプランニング</a>を作成いたします。<br>
+                                                class="href-long-term-plan href-link font-16-500"
+                                                data-href="href-long-term-plan">長期修繕計画</a>と<a href="#life-planning"
+                                                class="href-life-planning href-link font-16-500"
+                                                data-href="life-planning">ライフプランニング</a>を作成いたします。<br>
                                             計画的な積立と不必要な家計削減をご提案させていただきます。<br>
                                             また、ご自身でできるメンテナンス方法で建物の寿命を伸ばすアドバイスもいたします。
                                         </p>
@@ -1048,7 +1069,7 @@
 
                 <div class="half-wrapper half-right">
                     <div class="half-container right-container">
-                        <h1 class="font-48-700 head-text"  id="benefit" data-aos="fade-up" data-aos-duration="1000">
+                        <h1 class="font-48-700 head-text" id="benefit" data-aos="fade-up" data-aos-duration="1000">
                             ベネフィット
                         </h1>
                         <span class="en-head-text luxy-el" data-speed-y="-3" data-offset="580">Benefit</span>
@@ -1056,8 +1077,10 @@
                             「スマリノ」は、ただのリフォーム会社ではありません。<br>
                             お客様の家という資産を生涯に渡って守るため、無駄な工事や計画のない出費を避けることに注力しています。<br>
                             無料で提供する<a href="#long-term-plan" data-section="true"
-                                class="href-long-term-plan href-link font-16-500" data-href="href-long-term-plan">「長期修繕計画」</a>と<a href="#life-planning"
-                                class="href-life-planning href-link font-16-500" data-href="life-planning">「ライフプランニング」</a>を通じて、家のメンテナンスと家計の健全性を保ちながら、お客様一人ひとりに合わせた資産管理を実現します。<br>
+                                class="href-long-term-plan href-link font-16-500"
+                                data-href="href-long-term-plan">「長期修繕計画」</a>と<a href="#life-planning"
+                                class="href-life-planning href-link font-16-500"
+                                data-href="life-planning">「ライフプランニング」</a>を通じて、家のメンテナンスと家計の健全性を保ちながら、お客様一人ひとりに合わせた資産管理を実現します。<br>
                             営業や不必要な工事を行わない方針で、適正価格でのサービス提供をお約束します。<br>
                             自己メンテナンスのアドバイスと定期診断で、お客様の快適な家庭生活を長期的にサポートいたします。
                         </p>
@@ -1119,7 +1142,8 @@
                                 </p>
                                 <p class="content fon-16-500 underline-wrapper">
                                     適正な<a href="#long-term-plan" data-section="true"
-                                        class="href-long-term-plan href-link font-16-500" data-href="href-long-term-plan">長期修繕計画</a>を<span
+                                        class="href-long-term-plan href-link font-16-500"
+                                        data-href="href-long-term-plan">長期修繕計画</a>を<span
                                         class="underline-text font-20-700">無償</span>で作成いたします。
                                 </p>
                             </div>
@@ -1128,8 +1152,8 @@
                                     三条
                                 </p>
                                 <div class="content fon-16-500 underline-wrapper">
-                                    適正な<a href="#life-planning"
-                                        class="href-life-planning href-link font-16-500" data-href="life-planning">ライフプランニング</a>を<span
+                                    適正な<a href="#life-planning" class="href-life-planning href-link font-16-500"
+                                        data-href="life-planning">ライフプランニング</a>を<span
                                         class="underline-text font-20-700">無償</span>で作成いたします。
                                 </div>
                             </div>
@@ -1215,9 +1239,10 @@
                                 <div class="font-20-700 href-btn">営業部　萩間</div>
                                 <div class="font-16-500 content">
                                     お客様とのお付き合いは、無料の<a href="#long-term-plan" data-section="true"
-                                        class="href-long-term-plan href-link font-16-500" data-href="href-long-term-plan">「長期修繕計画」</a>と<a
-                                        href="#life-planning"
-                                        class="href-life-planning href-link font-16-500" data-href="life-planning">「ライフプランニング」</a>から始まります。<br>
+                                        class="href-long-term-plan href-link font-16-500"
+                                        data-href="href-long-term-plan">「長期修繕計画」</a>と<a href="#life-planning"
+                                        class="href-life-planning href-link font-16-500"
+                                        data-href="life-planning">「ライフプランニング」</a>から始まります。<br>
                                     これらの計画により、お客様の大切な住まいの寿命を延ばし、ライフイベントに合わせた資金計画を立てるお手伝いをさせていただきます。
                                 </div>
                             </li>
@@ -1226,7 +1251,8 @@
                                 <div class="font-16-500 content">
                                     私たち「スマリノ」は、お客様が建物の状態をよく理解し、自らの手で維持できるようにアドバイスいたします。<br>
                                     また、<a href="#six-months" data-section="true"
-                                        class="href-six-months href-link font-16-500" data-href="six-months">6ヶ月ごとに行う定期診断</a>で、建物の小さな変化も見逃しません。<br>
+                                        class="href-six-months href-link font-16-500"
+                                        data-href="six-months">6ヶ月ごとに行う定期診断</a>で、建物の小さな変化も見逃しません。<br>
                                     必要に応じて修繕や工事を行う際も、透明性のある適正価格で、質の高い自社施工をお約束します。
                                 </div>
                             </li>
@@ -1354,6 +1380,145 @@
                 </div>
             </section>
 
+            <section class="before-after">
+                <div class="container">
+                    <h1 class="head-text font-48-700" id="compare">比 較 材 料</h1>
+                    <p class="desc font-16-500">
+                        地域のリフォーム業界の現実とスマリノサービスを比較してみました。参考にしていただけるとありがたいです。
+                    </p>
+                    <div class="tables-wrapper">
+                        <div class="symbol-marks">
+                            <div class="column-wrapper">
+                                <div class="color"></div>
+                                <div class="label font-14-400">区分</div>
+                            </div>
+                            <div class="column-wrapper">
+                                <div class="color"></div>
+                                <div class="label font-14-400">スマリノ</div>
+                            </div>
+                            <div class="column-wrapper">
+                                <div class="color"></div>
+                                <div class="label font-14-400">他社</div>
+                            </div>
+                        </div>
+                        <div class="left-table b-a-table">
+                            <div class="record">
+                                <h3 class="classify font-16-700">区分</h3>
+                                <p class="smareno font-16-500">スマリノ</p>
+                                <p class="other font-16-500">他社</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">長期修繕計画作成数</h3>
+                                <p class="smareno font-16-400">地域NO1クラス</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">長期修繕計画登録顧客数</h3>
+                                <p class="smareno font-16-400">地域NO1クラス</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">ライフプランニング実績数</h3>
+                                <p class="smareno font-16-400">地域NO1クラス</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">FP在籍数</h3>
+                                <p class="smareno font-16-400">地域NO1クラス</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">問い合わせ数</h3>
+                                <p class="smareno font-16-400">地域NO1クラス</p>
+                                <p class="other font-16-400">少ない</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">工事実績</h3>
+                                <p class="smareno font-16-400">地域NO1クラス</p>
+                                <p class="other font-16-400">少ない</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">工事の可視化</h3>
+                                <p class="smareno font-16-400">あり</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">職人の見える化</h3>
+                                <p class="smareno font-16-400">あり</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">駆け付けサービス</h3>
+                                <p class="smareno font-16-400">あり</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">保証</h3>
+                                <p class="smareno font-16-400">設備10年保証</p>
+                                <p class="other font-16-400">メーカー保証</p>
+                            </div>
+                        </div>
+                        <div class="left-table b-a-table">
+                            <div class="record">
+                                <h3 class="classify font-16-700">区分</h3>
+                                <p class="smareno font-16-500">スマリノ</p>
+                                <p class="other font-16-500">他社</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">長期保証件数</h3>
+                                <p class="smareno font-16-400">地域NO1クラス</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">アフターサービス</h3>
+                                <p class="smareno font-16-400">一生涯</p>
+                                <p class="other font-16-400">短期</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">定期メンテナンス訪問数</h3>
+                                <p class="smareno font-16-400">地域NO1クラス</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">お付合いする期間</h3>
+                                <p class="smareno font-16-400">一生涯</p>
+                                <p class="other font-16-400">短期</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">建設業免許</h3>
+                                <p class="smareno font-16-400">あり</p>
+                                <p class="other font-16-400">一部あり</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">営業マンの数</h3>
+                                <p class="smareno font-16-400">60人</p>
+                                <p class="other font-16-400">数名</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">歴史</h3>
+                                <p class="smareno font-16-400">20年</p>
+                                <p class="other font-16-400">数年</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">勉強会の数</h3>
+                                <p class="smareno font-16-400">毎週2回</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700">不動産業</h3>
+                                <p class="smareno font-16-400">あり</p>
+                                <p class="other font-16-400">なし</p>
+                            </div>
+                            <div class="record">
+                                <h3 class="classify font-16-700"></h3>
+                                <p class="smareno font-16-400"></p>
+                                <p class="other font-16-400"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="distinction">
                 <div class="container">
                     <h1 class="head-text font-48-700" id="originality">スマリノはここが違う</h1>
@@ -1368,7 +1533,8 @@
                             <li class="distinction-item">
                                 <h4 class="title font-18-700 underline-wrapper">
                                     <span class="underline-text"><a href="#long-term-plan" data-section="true"
-                                            class="href-long-term-plan href-link" data-href="long-term-plan">長期修繕計画</a>がスゴイ</span>
+                                            class="href-long-term-plan href-link"
+                                            data-href="long-term-plan">長期修繕計画</a>がスゴイ</span>
                                 </h4>
                                 <p class="content font-16-500">
                                     <span>
@@ -1383,8 +1549,8 @@
                             <li class="distinction-item">
                                 <h4 class="title font-18-700 underline-wrapper">
                                     <span class="underline-text font-20-700"><a href="#life-planning"
-                                            data-section="true"
-                                            class="href-life-planning href-link" data-href="life-planning">ライフプランニング</a>はスゴイ</span>
+                                            data-section="true" class="href-life-planning href-link"
+                                            data-href="life-planning">ライフプランニング</a>はスゴイ</span>
                                 </h4>
                                 <p class="content font-16-500">
                                     <span>
@@ -1398,7 +1564,8 @@
                             <li class="distinction-item">
                                 <h4 class="title font-18-700 underline-wrapper">
                                     <span class="underline-text font-20-700">「スマリノ」は<a href="#achievements"
-                                            data-section="true" class="href-achievements href-link" data-href="achievements">実績</a>が違う</span>
+                                            data-section="true" class="href-achievements href-link"
+                                            data-href="achievements">実績</a>が違う</span>
                                 </h4>
                                 <p class="content font-16-500">
                                     <span>
@@ -1929,45 +2096,6 @@
                 </div>
             </section>
 
-            <section class="employees">
-                <div class="container">
-                    <h1 class="head-text font-48-700">スタッフ紹介</h1>
-                    <div class="team-section">
-                        <div class="team-member">
-                            <img src="./assets/img/employee001.jpg" alt="日渡">
-                            <h3 class="font-20-700">営業部　日渡</h3>
-                            <p class="font-16-400">
-                                「お客様の住まいは私たちの誇りです。スマリノで、家も心もリフレッシュしませんか？私たちは地域NO1クラスの実績を持つリフォーム会社です。20年以上にわたり地域に根ざしてきました。全ての修繕計画はお客様一人ひとりのライフプランに基づき、無計画なリフォームはやめましょう。高評価の口コミと満足度スコアが、私たちの誠実なサービスへの実績です。スマリノはただのリフォーム会社ではなく、お客様の大切な家のライフパートナーです。」
-                            </p>
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
-                        </div>
-                        <div class="team-member">
-                            <img src="./assets/img/employee002.jpg" alt="棚原">
-                            <h3 class="font-20-700">営業部　棚原</h3>
-                            <p class="font-16-400">
-                                「家族の未来を、一緒に設計しましょう。スマリノは、営業トーク一切なしの純粋なリフォームサポートをお約束します。地域NO1クラスの「長期修繕計画作成実績」で、あなたの住まいを長期にわたり守り続けます。また、専門のFPが作成する「ライフプランニング」で、予期せぬ出費に慌てることなく、安心の家計管理をいたします。スマリノで始める家の健康診断は、お客様の資産を守るための最初の一歩です。」
-                            </p>
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
-                        </div>
-                        <div class="team-member">
-                            <img src="./assets/img/employee003.jpg" alt="片山">
-                            <h3 class="font-20-700">営業部　片山</h3>
-                            <p class="font-16-400">
-                                「スマリノのリフォームは、ただの修繕ではありません。お客様と一生涯のお付き合いを目指し、家のメンテナンスから家計の診断まで、充実のサービスを無料で提供しています。グーグルの口コミ4.5点、SUUMO接客評価4.7点という高い評価をいただきながら、私たちは常に地域NO1を目指し続けています。20年の経験を活かし、お客様一人ひとりのニーズに合わせたパーソナライズされたリフォームプランをご提案。スマリノで、家も、未来も、ずっと美しく。」
-                            </p>
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
-                        </div>
-                    </div>
-                    <img class="team" src="./assets/img/team.jpg">
-                </div>
-            </section>
-
             <section class="company">
                 <div class="container">
                     <h1 class="head-text font-48-700" id="company" data-aos="fade-up" data-aos-duration="1000">会社概要</h1>
@@ -2109,7 +2237,7 @@
                                 <p class="table-head font-16-500">社名</p>
                                 <p class="table-content font-16-400">
                                     TIS株式会社（TIS Inc.）<br>
-                                    神奈川県相模原市中央区相模原4丁目6番16号　202 
+                                    神奈川県相模原市中央区相模原4丁目6番16号　202
                                 </p>
                             </li>
                             <li class="record">
@@ -2146,7 +2274,7 @@
                             <li class="record">
                                 <p class="table-head font-16-500">代表取締役</p>
                                 <p class="table-content font-16-400">
-                                    齋藤 幸夫 
+                                    齋藤 幸夫
                                 </p>
                             </li>
                             <li class="record">
@@ -2172,16 +2300,120 @@
                     </div>
                 </div>
             </section>
+
+            <section class="review-again">
+                <div class="container">
+                    <div class="review-content" data-aos="fade-up" data-aos-duration="1000">         
+                        <div class="stars-img">
+                            <div class="stars">
+                                <p class="label font-18-700">SUUMO接客評価満足度</p>
+                                <div class="review-wrapper">
+                                    <div class="star-wrapper">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <span class="font-18-700">194件</span>
+                                    </div>
+                                    <div class="star-wrapper">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <span class="font-18-700">27件</span>
+                                    </div>
+                                    <div class="star-wrapper">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <span class="font-18-700">6件</span>
+                                    </div>
+                                    <div class="star-wrapper">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <span class="font-18-700">0件</span>
+                                    </div>
+                                    <div class="star-wrapper">
+                                        <img class="star" src="./assets/img/star.svg">
+                                        <span class="font-18-700">1件</span>
+                                    </div>
+                                </div>
+                                <div class="marks font-18-700">
+                                    <span>4.7</span>点
+                                </div>
+                            </div>
+                            <div class="google-review">
+                                <p class="label font-18-700">googleの口コミ</p>
+                                <img src="./assets/img/google-review.png">
+                                <div class="marks font-18-700">
+                                    <span>4.5</span>点
+                                </div>
+                            </div>
+                            <!-- <img class="image007" src="assets/img/image007.png"> -->
+                        </div>
+                        <div class="content-wrapper">
+                            <h2 class="title font-24-700">
+                                スマリノ」はお客様満足度において、<br class="pc">
+                                地域の業界をリードしています。
+                            </h2>
+                            <p class="content font-16-400">
+                                悪くなりがちなリフォーム業界ですが「SUUMO接客評価」で高得点の4.7点、そして 「 Googleの口コミ」では4.5点という卓越した評価を受けています。これらの評価は、 「スマリノ」が常にお客様第一を心掛け、質の高いサービスと心温まる接客を提供し ていることの証です。地域でトップクラスの接客と満足度を実現することにより、お 客様に最高のリフォーム体験をお届けしています。年の歴史を基に、これからも変わ らぬ価値をお届けいたします。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="employees">
+                <div class="container">
+                    <h1 class="head-text font-48-700">スタッフ紹介</h1>
+                    <div class="team-section">
+                        <div class="team-member">
+                            <img src="./assets/img/employee001.jpg" alt="日渡">
+                            <h3 class="font-20-700">営業部　日渡</h3>
+                            <p class="font-16-400">
+                                「お客様の住まいは私たちの誇りです。スマリノで、家も心もリフレッシュしませんか？私たちは地域NO1クラスの実績を持つリフォーム会社です。20年以上にわたり地域に根ざしてきました。全ての修繕計画はお客様一人ひとりのライフプランに基づき、無計画なリフォームはやめましょう。高評価の口コミと満足度スコアが、私たちの誠実なサービスへの実績です。スマリノはただのリフォーム会社ではなく、お客様の大切な家のライフパートナーです。」
+                            </p>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
+                        <div class="team-member">
+                            <img src="./assets/img/employee002.jpg" alt="棚原">
+                            <h3 class="font-20-700">営業部　棚原</h3>
+                            <p class="font-16-400">
+                                「家族の未来を、一緒に設計しましょう。スマリノは、営業トーク一切なしの純粋なリフォームサポートをお約束します。地域NO1クラスの「長期修繕計画作成実績」で、あなたの住まいを長期にわたり守り続けます。また、専門のFPが作成する「ライフプランニング」で、予期せぬ出費に慌てることなく、安心の家計管理をいたします。スマリノで始める家の健康診断は、お客様の資産を守るための最初の一歩です。」
+                            </p>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
+                        <div class="team-member">
+                            <img src="./assets/img/employee003.jpg" alt="片山">
+                            <h3 class="font-20-700">営業部　片山</h3>
+                            <p class="font-16-400">
+                                「スマリノのリフォームは、ただの修繕ではありません。お客様と一生涯のお付き合いを目指し、家のメンテナンスから家計の診断まで、充実のサービスを無料で提供しています。グーグルの口コミ4.5点、SUUMO接客評価4.7点という高い評価をいただきながら、私たちは常に地域NO1を目指し続けています。20年の経験を活かし、お客様一人ひとりのニーズに合わせたパーソナライズされたリフォームプランをご提案。スマリノで、家も、未来も、ずっと美しく。」
+                            </p>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+                    <img class="team" src="./assets/img/team.jpg">
+                </div>
+            </section>
         </main>
 
         <footer id="footer">
             <div class="container">
-                <img class="top-img" src="./assets/img/background.png">
+                <!-- <img class="top-img" src="./assets/img/background.png"> -->
                 <div class="top-text font-20-500">
                     ❝人と知❞ の出会い、<span class="plus">+</span>から<span class="cross">×</span>へ。
                 </div>
                 <div class="middle-text font-36-700">
-                    <span class="spot font-48-700">人</span>と<span class="spot font-48-700">智</span><span class="spot font-48-700">恵</span>を結びつける多様なサービスで<br>
+                    <span class="spot font-48-700">人</span>と<span class="spot font-48-700">智</span><span
+                        class="spot font-48-700">恵</span>を結びつける多様なサービスで<br>
                     無限のシナジー効果を創出します。
                 </div>
                 <p class="bottom-text font-16-400">
@@ -2194,7 +2426,7 @@
                             不動産ソリューションメニュー
                         </div>
                         <p class="desc font-14-400">
-                            住まいの広場には不動産仲介を中心にリノベーション・売却・投資・建築の５つの分野において 各専門の人材と連携し、グループのシナジー効果を最大化します。 
+                            住まいの広場には不動産仲介を中心にリノベーション・売却・投資・建築の５つの分野において 各専門の人材と連携し、グループのシナジー効果を最大化します。
                         </p>
                         <div class="left-right">
                             <div class="left-wrapper">
@@ -2243,7 +2475,7 @@
                         <li class="font-14-400">
                             <div class="head-wrapper">
                                 <img src="./assets/img/favicon.png">
-                                株式会社 住まいの広場ＨＯＭＥＳ 
+                                株式会社 住まいの広場ＨＯＭＥＳ
                             </div>
                             <b>電話番号</b> :TEL 042-769-8106/FAX 042-769-8101<br>
                             <b>代表取締役</b> ：齋藤 あゆみ <br>
@@ -2252,7 +2484,7 @@
                         <li class="font-14-400">
                             <div class="head-wrapper">
                                 <img src="./assets/img/favicon.png">
-                                株式会社 住まいの広場ＴＯＷＮＳ 
+                                株式会社 住まいの広場ＴＯＷＮＳ
                             </div>
                             <b>電話番号</b> :TEL 042-769-8099/FAX 042-769-8108<br>
                             <b>代表取締役</b> ：齋藤 克也 <br>
@@ -2261,7 +2493,7 @@
                         <li class="font-14-400">
                             <div class="head-wrapper">
                                 <img src="./assets/img/favicon.png">
-                                株式会社 住まいの広場RENO 
+                                株式会社 住まいの広場RENO
                             </div>
                             <b>電話番号</b> :TEL 042-769-8099/FAX 042-769-8108<br>
                             <b>代表取締役</b> ：齋藤 克也 <br>
@@ -2270,7 +2502,7 @@
                         <li class="font-14-400">
                             <div class="head-wrapper">
                                 <img src="./assets/img/favicon.png">
-                                住まいの広場立川店（株式会社 アーキ不動産）  
+                                住まいの広場立川店（株式会社 アーキ不動産）
                             </div>
                             <b>所在</b> :東京都立川市曙町一丁目１２番１７号<br>
                             <b>電話番号</b> :TEL 042-769-8106/FAX 042-769-8101<br>
@@ -2282,7 +2514,10 @@
                 </div>
             </div>
         </footer>
+
     </div>
+
+    <div class="back-to-top"><a class="to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
 
     <script src="https://kit.fontawesome.com/8cbdf0a85f.js" crossorigin="anonymous"></script>
     <script type='text/javascript' src='./assets/js/luxy.min.js' id='luxy-js-js'></script>
